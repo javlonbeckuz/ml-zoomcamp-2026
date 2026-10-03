@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and models
+data/
+*.csv
+*.parquet
+*.bin
+*.pkl
+
+# Secrets
+.env
