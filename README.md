@@ -4,6 +4,8 @@ My ML Zoomcamp 2026 journey: notes, homework, projects, applied to real business
 
 Course: https://github.com/DataTalksClub/machine-learning-zoomcamp
 
+Study guide: [QOLLANMA.md](QOLLANMA.md) · Video checklist: [VIDEOS.md](VIDEOS.md)
+
 ## Progress
 
 | Module | Homework deadline (Tashkent time) | Status | Transfer project |
