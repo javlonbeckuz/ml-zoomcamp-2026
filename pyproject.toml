@@ -1,0 +1,16 @@
+[project]
+name = "ml-zoomcamp-2026"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "matplotlib",
+    "seaborn",
+    "jupyterlab",
+    "xgboost",
+    "fastapi",
+    "uvicorn",
+    "requests",
+]
