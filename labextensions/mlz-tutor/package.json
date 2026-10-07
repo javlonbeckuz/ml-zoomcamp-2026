@@ -1,0 +1,12 @@
+{
+  "name": "mlz-tutor",
+  "version": "0.1.0",
+  "description": "Floating course tutor chat button (backend: tutor.py)",
+  "jupyterlab": {
+    "extension": true,
+    "_build": {
+      "load": "static/remoteEntry.js",
+      "extension": "./extension"
+    }
+  }
+}

@@ -50,19 +50,21 @@ That way you can find any lesson quickly a month later.
 ### Rules
 
 - Don't copy Alexey's notebook. Type the code yourself.
-- Stuck? Try on your own for 20 minutes, then ask Claude Code for a hint.
+- Stuck? Try on your own for 20 minutes, then ask the tutor (below) or Claude Code for a hint.
+- Pandas 3: `df['col'].fillna(x, inplace=True)` doesn't work. Write `df['col'] = df['col'].fillna(x)`.
+- Course materials: `C:\Users\User\ml-zoomcamp\course\XX-module\` (each lesson has notes in a .md file).
 
-### Course tutor (`%ask`)
+### Course tutor
 
-In any notebook cell, ask a question about the course. It answers from the course notes, cites the lesson, and gives hints instead of homework solutions:
+Click the blue **Ask** button in the bottom-right corner of Jupyter and type your question (Enter sends, Shift+Enter adds a new line, "New chat" starts over). It answers from the course notes, cites the lesson, and gives hints instead of homework solutions.
+
+You can also ask from inside a notebook cell:
 
 ```
 %ask why do we use log1p on the price?
 ```
 
 For a long question or an error message, put `%%ask` on the first line of the cell and the text below it. `%ask reset` starts a new conversation. It runs on Qwen; the key is in `.env`. It only works when Jupyter is started from the Desktop "ML Zoomcamp" shortcut.
-- Pandas 3: `df['col'].fillna(x, inplace=True)` doesn't work. Write `df['col'] = df['col'].fillna(x)`.
-- Course materials: `C:\Users\User\ml-zoomcamp\course\XX-module\` (each lesson has notes in a .md file).
 
 ---
 
@@ -309,5 +311,5 @@ Deadline: Tuesday 04:00 Tashkent time. In practice, submit by Monday 23:00.
 | "Action disabled" in an HTML file | Click "Trust HTML" in Jupyter or open the file in Chrome |
 | `ModuleNotFoundError` | In PowerShell: `uv add <library>` |
 | Code from the video gives a different result | Check the pandas 3 difference (rule in section 1) |
-| `UsageError: Line magic function %ask not found` | Jupyter was not started from `start.bat`. Close it and reopen "ML Zoomcamp" on the Desktop |
+| No "Ask" button, or `UsageError: Line magic function %ask not found` | Jupyter was not started from `start.bat`. Close it and reopen "ML Zoomcamp" on the Desktop |
 | `save.ps1` doesn't push | Do the GitHub setup in section 0 |
