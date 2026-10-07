@@ -8,3 +8,5 @@ data/
 *.parquet
 *.bin
 *.pkl
+.ipython/profile_default/*
+!.ipython/profile_default/startup/
